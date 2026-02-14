@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /Comedor_Universitario/
+
+# Redirect all requests to public folder
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/index.php [L]
