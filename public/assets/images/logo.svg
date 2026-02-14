@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Clipboard -->
+  <g id="clipboard">
+    <!-- Clipboard body -->
+    <rect x="80" y="50" width="90" height="120" rx="4" fill="none" stroke="#1B4965" stroke-width="6"/>
+    <!-- Clipboard clip -->
+    <rect x="105" y="40" width="40" height="15" rx="7.5" fill="#1B4965"/>
+    <circle cx="125" cy="47.5" r="8" fill="#5A6C7D"/>
+    <!-- Checkmark -->
+    <polyline points="110,85 120,95 140,75" fill="none" stroke="#1B4965" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Lines -->
+    <line x1="105" y1="110" x2="145" y2="110" stroke="#5A6C7D" stroke-width="3" stroke-linecap="round"/>
+    <line x1="105" y1="125" x2="145" y2="125" stroke="#5A6C7D" stroke-width="3" stroke-linecap="round"/>
+    <line x1="105" y1="140" x2="130" y2="140" stroke="#5A6C7D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Fork and Knife -->
+  <g id="utensils">
+    <!-- Fork -->
+    <path d="M 50 80 L 50 130 M 45 80 L 45 95 M 50 80 L 50 95 M 55 80 L 55 95 M 47.5 95 L 52.5 95" 
+          stroke="#1B4965" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Knife -->
+    <path d="M 65 80 L 65 130 M 60 80 L 70 80 L 65 95 Z" 
+          stroke="#1B4965" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="#1B4965"/>
+  </g>
+  
+  <!-- House/Building -->
+  <g id="house">
+    <!-- Roof -->
+    <path d="M 45 105 L 57.5 95 L 70 105" fill="none" stroke="#5A6C7D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Body -->
+    <rect x="48" y="105" width="19" height="25" fill="none" stroke="#5A6C7D" stroke-width="4"/>
+    <!-- Door -->
+    <rect x="53" y="115" width="9" height="15" fill="#1B4965"/>
+  </g>
+</svg>
