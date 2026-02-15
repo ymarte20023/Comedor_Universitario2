@@ -1,0 +1,13 @@
+site_name: Comedor Universitario
+theme:
+  name: material
+  palette:
+    primary: indigo # Puedes cambiar el color aquí
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: arquitectura.md
+  - Base de Datos (DER): der.md
+  - Manual de Usuario: usuario.md
+  - Instalación Local: instalacion.md
+  - Despliegue: despliegue.md
